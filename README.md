@@ -1,5 +1,10 @@
-Working in a command line environment is recommended for ease of use with git and dvc. If on Windows, WSL1 or 2 is recommended.
+# Deploying a Scalable ML Pipeline with FastAPI
 
+**GitHub Repository:** https://github.com/aadamahmed71-lgtm/Deploying-a-Scalable-ML-Pipeline-with-FastAPI
+
+This project trains a Random Forest classifier on the U.S. Census Income dataset, evaluates its performance overall and on demographic data slices, and deploys it via a FastAPI REST API. See `model_card_template.md` for full model details and metrics, and `slice_output.txt` for per-slice performance.
+
+---
 # Environment Set up (pip or conda)
 * Option 1: use the supplied file `environment.yml` to create a new environment with conda
 * Option 2: use the supplied file `requirements.txt` to create a new environment with pip
